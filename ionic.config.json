@@ -1,0 +1,7 @@
+{
+  "name": "websume",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
