@@ -1,0 +1,61 @@
+.cbody-content2{
+    background-color: #F3F2DA;
+	display: flex;
+    height: 500px;
+    .cuser-description2{  
+        orientation: landscape;
+        .clistview2{ 
+            width: 750px;
+            margin-left: 17cm;
+            .cname2{
+                margin: 0 20px;
+                color: #045762;
+                text-decoration: none;
+                margin-top: 3cm;
+                margin-left: 6.3cm;
+                font-size: 40px;
+                font-weight: 600;
+                display: flex;} 
+            .cposition2{
+                margin: 0 20px;
+                color: #041562;
+                text-decoration: none;
+                text-align: center;
+                margin-top: 0.5cm;
+                margin-left: 2cm;
+                font-size: 20px;
+                font-weight: 400;
+                display: flex;}  
+        }
+        
+        .chome-image2{
+            position: absolute;
+            top: 0px;
+            left: 100px;
+            width: 495px;
+        }   
+        
+        .ctoolbar2{
+            width: 350px;
+            margin-top: 0.5cm;
+            margin-left: 23cm;
+            .ccontent-container2{
+                .cnavmenu2{
+                    .clist2{
+                        .cicon2{
+                        margin: 0 10px;
+                        color: #EA97AD;
+                        text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+
+   

@@ -1,147 +1,90 @@
 .header {
-    display: block;
-    max-width: 90%;
-    padding: 20px 10px;
-    margin: 0px auto;
-  }
-  
-  .header ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    /* background-color: #fff; */
-  }
-  .grey-color {
-    color: #868e96;
-  }
-  
-  .header li a {
-    display: block;
-    padding: 20px 20px;
-    /* color: black; */
-    text-decoration: none;
-  }
-  
-  .header li a:hover,
-  .header .menu-btn:hover {
-    /* background-color: #A6E1FA; */
-  }
-  
-  .header .logo {
-    display: block;
-    float: left;
-    font-size: 1.5em;
-    text-decoration: none;
-    margin-top: 10px;
-    line-height: normal;
-  }
-  .header .logo-name {
-    font-family: "Agustina Regular";
-    font-weight: bold;
-    padding: 0 10px;
-    /* color: #55198b; */
-  }
-  
-  /* menu */
-  
-  .menu {
-    font-family: "Google Sans Regular";
-  }
-  
-  .header .menu {
-    clear: both;
-    max-height: 0;
-    transition: max-height 0.2s ease-out;
-  }
-  
-  /* menu icon */
-  
-  .header .menu-icon {
-    cursor: pointer;
-    display: inline-block;
-    float: right;
-    padding: 28px 20px;
-    position: relative;
-    user-select: none;
-  }
-  
-  .header .menu-icon .navicon {
-    background: #333;
-    display: block;
-    height: 2px;
-    position: relative;
-    transition: background 0.2s ease-out;
-    width: 18px;
-  }
-  
-  .header .menu-icon .navicon:before,
-  .header .menu-icon .navicon:after {
-    background: #333;
-    content: "";
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all 0.2s ease-out;
-    width: 100%;
-  }
-  
-  .header .menu-icon .navicon:before {
-    top: 5px;
-  }
-  
-  .header .menu-icon .navicon:after {
-    top: -5px;
-  }
-  
-  /* menu btn */
-  
-  .header .menu-btn {
-    display: none;
-  }
-  
-  .header .menu-btn:checked ~ .menu {
-    max-height: 370px;
-  }
-  
-  .header .menu-btn:checked ~ .menu-icon .navicon {
-    background: transparent;
-  }
-  
-  .header .menu-btn:checked ~ .menu-icon .navicon:before {
-    transform: rotate(-45deg);
-  }
-  
-  .header .menu-btn:checked ~ .menu-icon .navicon:after {
-    transform: rotate(45deg);
-  }
-  
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-    top: 0;
-  }
-  
-  /* 48em = 768px */
-  
-  @media (min-width: 48em) {
-    .header li {
-      float: left;
-    }
-    .header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .header .menu {
-      max-height: none;
-    }
-    .header .menu-icon {
-      display: none;
-    }
-  }
-  @media (max-width: 960px) and (min-width: 768px) {
-    .header {
-      font-size: 12px;
-    }
-  }
-  
+	.toolbar {
+		.content-container {
+      background-color: #045762;
+			display: flex;
+			.logo {
+				width: 40%;
+					padding: 20px;
+					margin-left: 1cm;
+				.logo-link {
+					text-decoration: none;
+					color: #EA97AD;
+					.navbrand {
+						padding: 0 10px;
+					}
+				}
+			}
+			.navmenu {
+				margin: auto;
+				text-align: left;
+				.list {
+					list-style: none;
+					color: #EA97AD;
+					display: flex;
+					.item {
+						margin: 0 20px;
+            color: #EA97AD;
+            font-size: 0.50cm;
+            text-decoration: none;
+            display: flex;
+					}
+				}
+			}
+		}
+	}
+}
+
+// //1440
+// @media screen and (max-width: 2559px) {}
+
+// //1024
+// @media screen and (max-width: 1439px) {}
+
+//768
+@media screen and (max-width: 1023px) {
+	.header {
+		.toolbar {
+			.content-container {
+				display: block;
+				.logo {
+					width: 100%;
+					display: flex;
+					justify-content: center;
+				}
+				.navmenu {
+					.list {
+						justify-content: center;
+					}
+				}
+			}
+		}
+	}
+}
+
+//425
+@media screen and (max-width: 767px) {
+     .header {
+		.toolbar {
+			.content-container {
+				background: #000000;
+                    border:1px solid red;
+			}
+		}
+	}
+}
+
+//375
+@media screen and (max-width: 424px) {
+     .header {
+		.toolbar {
+			.content-container {
+				background: #09ff00;
+                    border:1px solid #3700ff;
+			}
+		}
+	}
+}
+
+//320
+@media screen and (max-width: 374px) {}
