@@ -1,5 +1,10 @@
 <template>
           <ion-content class="cbody-content2">
+               <ion-fab vertical="bottom" horizontal="end" >
+                         <ion-fab-button href="ContactMe">
+                              <ion-icon name="arrow-forward-circle"></ion-icon>
+                         </ion-fab-button>
+                    </ion-fab>
                <div class="cuser-description2">
                     <ion-content class="chome-image2">
                          <div class="cimg2">    

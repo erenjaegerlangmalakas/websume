@@ -1,30 +1,32 @@
-.cbody-content1{
+.ebody-content0{
     background-color: #F3F2DA;
 	display: flex;
     height: 500px;
-    .cuser-description1{  
+    .euser-description0{  
         orientation: landscape;
-        .clistview1{
+        .elistview0{
             width: 750px;
-            .cname1{
+            margin-left: 16.5cm;
+            .ename0{
                 margin: 0px 20px;
                 color: #ce05ac;
                 margin-top: 2cm; 
                 display: flex;
                 font-size: 60px;
                 font-weight: 600;} 
-            .cposition1{
+        .eposition0{
                 margin: 0 20px;
                 color: #045762;
                 text-decoration: none;
                 margin-top: 0.35cm;
-                margin-left: 1.2cm;
+                margin-left: 5cm;
                 font-size: 35px;
                 font-weight: 600;
                 font-style: italic;
                 display: flex;}
-            .cdescription1{
+                .edescription0{
                 margin: 0 20px;
+                text-align: center;
                 color: #045762;
                 text-decoration: none;
                 margin-left: 1.4cm;
@@ -32,21 +34,21 @@
                 margin-top: 0.35cm;
                 display: flex;}     
         }
-        .chome-image1{
+        .ehome-image0{
             position: absolute;
-            right: 100px;
+            left: 100px;
             top: 0px;
             width: 495px;
         }   
         
-	.ctoolbar1 {
+	.etoolbar0 {
         width: 350px;
-		.ccontent-container1 {
-			.cnavmenu1 {
-                
-				.clist1 {
+        margin-left: 20cm;
+		.econtent-container0 {
+			.enavmenu0 {
+				.elist0 {
                     margin-left: 0.9cm;
-					.cicon1 {
+					.eicon0 {
                     margin: 0 10px;
                     color: #EA97AD;
                     text-decoration: none;

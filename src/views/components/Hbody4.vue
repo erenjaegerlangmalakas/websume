@@ -26,7 +26,6 @@
                     
                     
                </div>
-               
           </ion-content>
 </template>
 <script lang="ts">
