@@ -1,0 +1,65 @@
+.body-content{
+    background-color: #F3F2DA;
+	display: flex;
+    height: 500px;
+    .user-description{  
+        orientation: landscape;
+        .listview{
+            width: 750px;
+            .name{
+                margin: 0px 20px;
+                color: #ce05ac;
+                margin-top: 2cm; 
+                display: flex;
+                font-size: 60px;
+                font-weight: 600;} 
+            .position{
+                margin: 0 20px;
+                color: #045762;
+                text-decoration: none;
+                margin-top: 0.35cm;
+                margin-left: 1.2cm;
+                font-size: 35px;
+                font-weight: 600;
+                font-style: italic;
+                display: flex;}
+            .description{
+                margin: 0 20px;
+                color: #045762;
+                text-decoration: none;
+                margin-left: 1.4cm;
+                font-size: 20px;
+                margin-top: 0.35cm;
+                display: flex;}     
+        }
+        .home-image{
+            position: absolute;
+            right: 100px;
+            top: 0px;
+            width: 495px;
+        }   
+        
+	.htoolbar {
+        width: 350px;
+		.hcontent-container {
+			.hnavmenu {
+                
+				.hlist {
+                    margin-left: 0.9cm;
+					.icon {
+                    margin: 0 10px;
+                    color: #EA97AD;
+                    text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+    }
+    
+}
+
+
+
+
+   

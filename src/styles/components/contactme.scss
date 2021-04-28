@@ -1,0 +1,61 @@
+.cbody-content{
+    background-color: #F3F2DA;
+	display: flex;
+    height: 500px;
+    .cuser-description{  
+        orientation: landscape;
+        .clistview{ 
+            width: 750px;
+            margin-left: 17cm;
+            .cname{
+                margin: 0 20px;
+                color: #045762;
+                text-decoration: none;
+                margin-top: 3cm;
+                margin-left: 6.3cm;
+                font-size: 40px;
+                font-weight: 600;
+                display: flex;} 
+            .cposition{
+                margin: 0 20px;
+                color: #041562;
+                text-decoration: none;
+                text-align: center;
+                margin-top: 0.5cm;
+                margin-left: 2cm;
+                font-size: 20px;
+                font-weight: 400;
+                display: flex;}  
+        }
+        
+        .chome-image{
+            position: absolute;
+            top: 0px;
+            left: 100px;
+            width: 495px;
+        }   
+        
+        .ctoolbar {
+            width: 350px;
+            margin-top: 0.5cm;
+            margin-left: 23cm;
+            .ccontent-container {
+                .cnavmenu {
+                    .clist {
+                        .cicon {
+                        margin: 0 10px;
+                        color: #EA97AD;
+                        text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+
+   

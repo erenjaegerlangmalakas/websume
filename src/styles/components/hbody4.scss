@@ -1,0 +1,69 @@
+.body-content4{
+    background-color: #F3F2DA;
+	display: flex;
+    height: 500px;
+    .user-description4{  
+        orientation: landscape;
+        .listview4{ 
+            width: 750px;
+            margin-left: 17cm;
+            .name4{
+                margin: 0 20px;
+                color: #045762;
+                text-decoration: none;
+                margin-top: 3cm;
+                margin-left: 2cm;
+                font-size: 40px;
+                font-weight: 600;
+                display: flex;} 
+            .htoolbar4 {
+                    width: 350px;
+                    margin-top: 0.5cm;
+                    margin-left: 3cm;
+                    .hcontent-container4 {
+                        .hnavmenu4 {
+                            .hlist4 {
+                                .icon4 {
+                                margin: 0 10px;
+                                color: #EA97AD;
+                                text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            .position4{
+                margin: 0 20px;
+                color: #041562;
+                text-decoration: none;
+                margin-top: 0.35cm;
+                margin-left: 3cm;
+                font-size: 20px;
+                font-weight: 400;
+                display: flex;}
+            .description4{
+                margin: 0 20px;
+                color: #045762;
+                text-decoration: none;
+                margin-top: 0.35cm;
+                margin-left: 4cm;
+                font-size: 20px;
+                font-weight: 600;
+                display: flex;}    
+        }
+        .home-image4{
+            position: absolute;
+            top: 0px;
+            left: 100px;
+            width: 495px;
+        }   
+        
+	
+    }
+    
+}
+
+
+
+
+   
