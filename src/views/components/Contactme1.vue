@@ -8,8 +8,8 @@
                     </ion-content>
                     <ul class="listview">
                          <li class="name">Trexcy Fe M. Torrefiel</li>
-                         <li class="position">Software Engineer</li>
-                         <li class="description">I am the future president of the Philippines <br> 
+                         <li class="position">Information Technology Student</li>
+                         <li class="description">I am an aspiring Mobile Developer and Cybersecurity Professional <br> 
                          I am  member of the Seven Deadly Sins (Nanatsu no Taizai) <br> 
                          I am  poses the power of destruction and purification <br>
                          I also poses a 6 Leaf Grimoire, where the 6th leaf resides an Angel <br>  

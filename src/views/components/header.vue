@@ -4,13 +4,13 @@
                <div class="content-container">
                     <div class="logo">
                          <a href="#" class="logo-link">
-                              <img src="../../assets/logo.png" width="70" class="image">
+                              <img src="../../assets/logo1.png" width="70" class="image">
                          </a>
                     </div>
                     <div class="navmenu">
                          <ul class="list">
                               <a href= "Home" class="item">Home</a>
-                              <a href= "#" class="item">Education</a>
+                              <a href= "Education" class="item">Education</a>
                               <a href= "#" class="item">Experience</a>
                               <a href= "#" class="item">Projects</a>
                               <a href= "#" class="item">Skills</a>
